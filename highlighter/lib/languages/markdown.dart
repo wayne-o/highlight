@@ -24,6 +24,9 @@ final markdown = Mode(refs: {}, aliases: [
     Mode(begin: "`.+?`"),
     Mode(begin: "^( {4}|\\t)", end: "\$", relevance: 0)
   ]),
+  Mode(className: "inlinecode", variants: [
+    Mode(begin: "`.+?`"),
+  ]),
   Mode(begin: "^[-\\*]{3,}", end: "\$"),
   Mode(
       begin: "\\[.+?\\][\\(\\[].*?[\\)\\]]",
