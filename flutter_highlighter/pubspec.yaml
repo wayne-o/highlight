@@ -11,8 +11,9 @@ dependencies:
     sdk: flutter
   highlighter: 
     git:
-      url: git@github.com:predatorx7/highlight.git/highlighter
+      url: git@github.com:predatorx7/highlight.git
       ref: master
+      path: highlighter
 dev_dependencies:
   flutter_test:
     sdk: flutter
