@@ -9,8 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  highlighter: ^0.1.0
-
+  highlighter: 
+    git:
+      url: git@github.com:predatorx7/highlight.git/highlighter
+      ref: master
 dev_dependencies:
   flutter_test:
     sdk: flutter
